@@ -155,4 +155,9 @@ footer {
   width: 30%;
   display: flex;
   background-color: black;
+  font-size: 1rem;
+}
+
+.teaser-text span {
+  height: 1rem;
 }
