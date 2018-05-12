@@ -150,14 +150,16 @@ footer {
 }
 
 .teaser-text {
-  height: 3rem;
-  padding: 1rem 2rem;
-  width: 30%;
-  display: flex;
-  background-color: black;
-  font-size: 1rem;
+  width: 35%;
 }
 
-.teaser-text span {
-  height: 1rem;
+.box {
+  background-color: black;
+  font-size: 1rem;
+  display: block;
+  padding: 1rem 2rem;
+}
+
+.white {
+  color: black;
 }
