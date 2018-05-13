@@ -10,6 +10,7 @@ html {
 .container {
   max-width: 960px;
   display: flex;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -19,6 +20,7 @@ header {
   height: 2.32rem;
   background-color: black;
   display: flex;
+  justify-content: flex-start;
 }
 
 header img {
@@ -237,7 +239,7 @@ nav.mobile {
     }
 
     span.white {
-      padding-top: 0.15rem;
+      padding: 0.15rem;
     }
 
     footer {
