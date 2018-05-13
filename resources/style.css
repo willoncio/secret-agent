@@ -167,9 +167,9 @@ footer {
 /* Responsive tablet */
 
 @media only screen and (min-width: 1024px) {
-nav .mobile {
+nav.mobile {
   display: none;
-  
+  }
 }
 
 
@@ -178,7 +178,7 @@ nav .mobile {
     width: 47%;
   }
 
-  nav .desktop {
+  nav.desktop {
     display: none;
   }
 
