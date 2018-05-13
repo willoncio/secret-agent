@@ -8,9 +8,8 @@ html {
 /* CSS boxing */
 
 .container {
-  width: 960px;
+  max-width: 960px;
   display: flex;
-  margin: auto;
 }
 
 /* Header */
@@ -48,6 +47,7 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
+  padding-top: 0.5rem;
 }
 
 
@@ -182,4 +182,69 @@ nav.mobile {
     display: none;
   }
 
+  .mobile ul {
+    display: flex;
+    justify-content: center;
+    }
+
+ .glasses {
+   display: none;
+ }
+
 }
+
+
+@media only screen and (max-width: 470px) {
+  .watch {
+      display: none;
+    }
+
+  .glasses {
+      display: none;
+    }
+
+  .teaser {
+      width: 90%;
+    }
+
+  .products {
+      justify-content: center;
+    }
+
+    .header-text {
+      padding: 1rem 2rem;
+      margin-top: 10rem;
+    }
+
+    h2 {
+      font-size: 0.77rem;
+    }
+
+    h1 {
+      font-size: 1rem;
+      padding-top: 0.5rem;
+    }
+
+    .location-and-hours {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .teaser-text {
+      width: 90%;
+      margin: 0.5rem auto;
+
+    }
+
+    span.white {
+      padding-top: 0.15rem;
+    }
+
+    footer {
+      justify-content: center;
+    }
+
+
+
+
+  }
